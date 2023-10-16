@@ -9,10 +9,10 @@ main()
 
     printf("How much does a pizza cost in your area? ");
 
-    printf(" enter as $XX.XX)\n");
+    printf("(enter as $XX.XX)\n");
     scanf(" $%f", &cost);
 
-    printf("What is your favorite one-word pizza topping?\n");
+    printf("What is your favorite one-word pizza topping?\n\n");
     scanf(" %s", topping);
 
     printf("How many slices of %s pizza ", topping);
